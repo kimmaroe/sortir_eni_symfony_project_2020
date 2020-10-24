@@ -124,8 +124,8 @@ class GlobalFixtures extends Fixture
         //la team en admin
         $user1 = new User();
         $user1->setFirstName("Adeline");
-        $user1->setName("Avril");
-        $user1->setEmailAdress("adelineavril@eni.fr");
+        $user1->setName("Eni");
+        $user1->setEmailAdress("adeline@eni.fr");
         $user1->setPassword($this->encoder->encodePassword($user1, 'adeline'));
         $user1->setPhoneNumber("0645879632");
         $user1->setRoles(['ROLE_ADMIN']);
@@ -135,8 +135,8 @@ class GlobalFixtures extends Fixture
 
         $user2 = new User();
         $user2->setFirstName("Kim");
-        $user2->setName("Maroe");
-        $user2->setEmailAdress("kimmaroe@eni.fr");
+        $user2->setName("Eni");
+        $user2->setEmailAdress("kim@eni.fr");
         $user2->setPassword($this->encoder->encodePassword($user2, 'kim'));
         $user2->setPhoneNumber("0758972596");
         $user2->setRoles(['ROLE_ADMIN']);
@@ -146,8 +146,8 @@ class GlobalFixtures extends Fixture
 
         $user3 = new User();
         $user3->setFirstName("Quentin");
-        $user3->setName("Poinsignon");
-        $user3->setEmailAdress("quentinpoinsignon@eni.fr");
+        $user3->setName("Eni");
+        $user3->setEmailAdress("quentin@eni.fr");
         $user3->setPassword($this->encoder->encodePassword($user3, 'quentin'));
         $user3->setPhoneNumber("0656243514");
         $user3->setRoles(['ROLE_ADMIN']);
@@ -158,8 +158,8 @@ class GlobalFixtures extends Fixture
         //les users
         $user4 = new User();
         $user4->setFirstName("Guillaume");
-        $user4->setName("Sylvestre");
-        $user4->setEmailAdress("guillaumesylvestre@eni.fr");
+        $user4->setName("Eni");
+        $user4->setEmailAdress("guillaume@eni.fr");
         $user4->setPassword($this->encoder->encodePassword($user4, 'guillaume'));
         $user4->setPhoneNumber("0765897654");
         $user4->setRoles(['ROLE_USER']);
@@ -169,8 +169,8 @@ class GlobalFixtures extends Fixture
 
         $user5 = new User();
         $user5->setFirstName("Hervé");
-        $user5->setName("Boisgontier");
-        $user5->setEmailAdress("herveboisgontier@eni.fr");
+        $user5->setName("Eni");
+        $user5->setEmailAdress("hervebois@eni.fr");
         $user5->setPassword($this->encoder->encodePassword($user5, 'herve'));
         $user5->setPhoneNumber("0676543419");
         $user5->setRoles(['ROLE_USER']);
@@ -263,7 +263,7 @@ class GlobalFixtures extends Fixture
 
 
         $user16 = new User();
-        $user16->setFirstName("Samy-Lee");
+        $user16->setFirstName("Samy");
         $user16->setName("eni");
         $user16->setEmailAdress("samy@eni.fr");
         $user16->setPassword($this->encoder->encodePassword($user16, 'samy'));
@@ -435,7 +435,7 @@ class GlobalFixtures extends Fixture
         $event5->setOwner($user3);
         $event6->setOwner($user4);
 
-        $event1->setEventInfos('Fuck it dude, let\'s go bowling');
+        $event1->setEventInfos('Forget it dude, let\'s go bowling');
         $event2->setEventInfos('Boire un petit coup c\'est agréable');
         $event3->setEventInfos('Fêtons ensemble la fin du projet Symfony !');
         $event4->setEventInfos('Well to be honest I don\'t know what this is...');
