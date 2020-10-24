@@ -3,27 +3,27 @@
 * @Kim Maroe
 * @Quentin Poinsignon
 
-###Introduction
+### Introduction
 "Sortir" is a website which allows students to organise meet-ups around their campus.
 It provides secure login to each student account, a registration form for administrators to
 create student accounts, a meet-up creation form and a home page which lists all the meet-ups
 students can attend to. We also provide filters and search feature for this home page in order for our users
 to get the information they need easily and fast.
 
-###Technologies
+### Technologies
 - Symfony 5.1
 - PHP 7.4.11
 - CSS 3
 - JavaScript
 - MySql 5.7
 
-###Setup
+### Setup
 To run this project, make sure to install Symfony on your computer (en français:  https://symfony.com/doc/current/the-fast-track/fr/1-tools.html#composer) (in english :https://symfony.com/doc/current/setup.html), you will need to use Symfony's web server or Apache for example.
 you'll need to create a data base, we provide fixtures to get this project up and running. Make sure to load them before trying to run sortir in your browser.
 We'll guide you through this process in the next section.
 
-###Create the database and populate it with some data
-####Create your database
+### Create the database and populate it with some data
+#### Create your database
 Once you get MySql, you can create your own database.
 
 In order to achieve this, please, copy and paste .env file at the root of the project. Name the new file .env.local
@@ -39,7 +39,7 @@ php bin/console doctrine:schema:update --force
 
 you can also follow Symfony documentation here https://symfony.com/doc/current/doctrine.html#configuring-the-database .
 
-####load in some data
+#### load in some data
 In order to populate your database, we need you to install DoctrineFixturesBundle. Run this command at the root of your project:
 composer require --dev doctrine/doctrine-fixtures-bundle
 
