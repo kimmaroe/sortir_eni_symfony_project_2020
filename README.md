@@ -18,7 +18,7 @@ to get the information they need easily and fast.
 - MySql 5.7
 
 ### Setup
-To run this project, make sure to install Symfony on your computer (en français:  https://symfony.com/doc/current/the-fast-track/fr/1-tools.html#composer) (in english :https://symfony.com/doc/current/setup.html), you will need to use Symfony's web server or Apache for example.
+To run this project, make sure to install Symfony on your computer (en français:  https://symfony.com/doc/current/the-fast-track/fr/1-tools.html#composer) (in english :https://symfony.com/doc/current/setup.html), you will need to use Symfony's web server or Apache for example. You can clone our repository of download the zip file.
 you'll need to create a data base, we provide fixtures to get this project up and running. Make sure to load them before trying to run sortir in your browser.
 We'll guide you through this process in the next section.
 
