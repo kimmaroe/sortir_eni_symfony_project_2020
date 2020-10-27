@@ -13,7 +13,8 @@ to get the information they need easily and fast.
 ### Technologies
 - Symfony 5.1
 - PHP 7.4.11
-- CSS 3
+- CSS3
+- HTML5
 - MySql 5.7
 
 ### Setup
@@ -30,15 +31,15 @@ Open the file, at the end of it, you can set up your database information. make 
 where your database is located and the database's name in the DATABASE_URL as follow :
 DATABASE_URL="mysql://db_user:db_password@127.0.0.1:3306/db_name"
 
-Once you're done with this, you can now create your database using Doctrine ORM:
+Once you're done with this, you're able to create your database using Doctrine ORM:
 at the root of your project run this command :
 php bin/console doctrine:database:create
-then, if you are on a local environnement, you can update the schema database running this command :
+then, if you are on a local environnement, you can update the database's schema running this command :
 php bin/console doctrine:schema:update --force
 
 you can also follow Symfony documentation here https://symfony.com/doc/current/doctrine.html#configuring-the-database .
 
-#### load in some data
+#### Load in some data
 In order to populate your database, we need you to install DoctrineFixturesBundle. Run this command at the root of your project:
 composer require --dev doctrine/doctrine-fixtures-bundle
 
