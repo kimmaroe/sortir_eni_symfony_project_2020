@@ -14,11 +14,10 @@ to get the information they need easily and fast.
 - Symfony 5.1
 - PHP 7.4.11
 - CSS 3
-- JavaScript
 - MySql 5.7
 
 ### Setup
-To run this project, make sure to install Symfony on your computer (en français:  https://symfony.com/doc/current/the-fast-track/fr/1-tools.html#composer) (in english :https://symfony.com/doc/current/setup.html), you will need to use Symfony's web server or Apache for example. You can clone our repository of download the zip file.
+To run this project, make sure to install Symfony on your computer (en français:  https://symfony.com/doc/current/the-fast-track/fr/1-tools.html#composer) (in english :https://symfony.com/doc/current/setup.html), you will need to use Symfony's web server or Apache for example. You can clone our repository or download the zip file.
 you'll need to create a data base, we provide fixtures to get this project up and running. Make sure to load them before trying to run sortir in your browser.
 We'll guide you through this process in the next section.
 
